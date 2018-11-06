@@ -10,14 +10,14 @@ Logger.error = function (msg) {
     var message = new Date().toISOString() + " : " + msg + "\n";
     errorStream.write(message);
 };
-var mailchimp = new Mailchimp("e5d3d65675cd47b5b4cedf207a42038a-us15");
+var mailchimp = new Mailchimp("*********");
 var sql = require("mssql");
 // config for your database
 var config = {
-    user: "tabula",
-    password: "MCdi@2016",
-    server: "80.178.113.67",
-    database: "mcdi1"
+    user: "****",
+    password: "*****",
+    server: "*****",
+    database: "*****"
 };
 
 function daysBetween() {
